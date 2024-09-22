@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.header {
+  z-index: 99;
+  background-color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  padding: .4rem;
+  display: flex;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 0 6px #000;
+}
+
+.nav-links ul {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.nav-links a {
+  color: #000;
+  margin: 0 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.nav-links img {
+  height: 5rem;
+}
+
+.logo img {
+  height: 3.6rem;
+}
+
+.srch button {
+  cursor: pointer;
+  background-color: #ffffffbd;
+  border-radius: .3rem;
+  padding: .55rem 2rem;
+  font-weight: 600;
+}
+
+.srch button:hover {
+  background-color: #f98d00;
+  transition: transform .12s ease-in-out;
+  transform: scale(1.09);
+}
+
+.srch input {
+  border-radius: .3rem;
+  margin: 0 1rem 0 2rem;
+  padding: .55rem 3rem .55rem .8rem;
+}
+
+.srch {
+  margin: 2rem auto;
+}
+
+.mn {
+  justify-content: flex-end;
+  width: 100%;
+  display: flex;
+}
+
+.card {
+  width: 15.5rem;
+  margin: .4rem 1rem 2rem;
+  display: inline-block;
+}
+
+.card img {
+  object-fit: cover;
+  border-radius: 1.2rem;
+  width: 100%;
+  height: 10rem;
+}
+
+.card:hover {
+  transition: transform .12s ease-in-out;
+  transform: scale(.95);
+}
+
+.cards-con {
+  display: inline-block;
+}
+
+.data {
+  padding: .5rem 0 1rem .8rem;
+}
+
+h2 {
+  margin-bottom: .3rem;
+  font-size: 1.45rem;
+}
+
+h3 {
+  font-weight: 600;
+  display: inline-block;
+}
+
+.rating {
+  margin-right: .6rem;
+}
+
+h4 {
+  font-weight: 300;
+}
+
+.cards-container {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10rem;
+  display: flex;
+}
+/*# sourceMappingURL=index.c41b5a0e.css.map */
